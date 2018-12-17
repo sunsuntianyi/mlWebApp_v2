@@ -31,7 +31,6 @@ Step 3: Install required dependencies
     
     npm install     
     
-    # If you are unsure about this step, you can always use the prebuild module which I uploaded as the .zip file: "node_modules.zip", unzip it.
 
 Step 4: Running the application:
 
