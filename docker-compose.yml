@@ -1,0 +1,25 @@
+version: '3'
+services:
+  web:
+    build: './WEBAPP'
+    ports:
+      - "3000:3000"
+
+    depends_on: 
+      - db
+    environment:
+      - MONGO_DB_URI=mongodb://db/inception
+
+  db:
+    image: mongo
+    ports:
+      - "27017:27017"
+
+  nginx:
+    image: nginx:latest
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./default.conf:/etc/nginx/conf.d/default.conf
+    depends_on:
+      - web

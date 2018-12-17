@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  .container
+    form(action='/result' method="POST" enctype="multipart/form-data")   
+      .row
+        .col.s12
+            |<img src = #{photolist['path']} alt="image" class="responsive-img" style="width:500px;"><p class="center-align caption"> <font size="+1">It's<font size="+2"><b> [#{cls}]</b></font><font size="+1">, and I'm</font><font size="+2"><b> [#{score}]</b></font><font size="+1"> certain</font></p>            
+      .row
+        .col.s12
+            .button
+                <a href="/" class="button">Main Page</a>

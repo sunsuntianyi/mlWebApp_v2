@@ -1,0 +1,1 @@
+/private/var/tmp/_bazel_tianyi/f29d1e61689e4e4b318f483932fff4d0/execroot/tf_serving/bazel-out/darwin-opt/genfiles/external/org_tensorflow/tensorflow/core/framework/remote_fused_graph_execute_info_pb2.py
