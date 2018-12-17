@@ -5,9 +5,9 @@
 This is the implementation of the deep convolutional neural network model, Inception.
 Tech involved: GCP, Kubernetes, Docker(Compose), TensorFlow(Serving), Node.js, MongoDB, Python, JavaScript, HTML, CSS, Jade(pug).
 
-![alt text](https://github.com/sunsuntianyi/webapp/blob/master/demo1.png)
+![alt text](https://github.com/sunsuntianyi/mlWebApp_v2/blob/master/demo/1.png)
 
-![alt text](https://github.com/sunsuntianyi/webapp/blob/master/demo2.png)
+![alt text](https://github.com/sunsuntianyi/mlWebApp_v2/blob/master/demo/2.png)
 
 
 Steps for using the web app locally on your computer:
