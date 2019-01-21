@@ -86,7 +86,7 @@ router.post('/upload', function(req, res) {
              */
             var fullPath = "files/"+req.file.filename;
 
-            var str = execSync('python ./MLmodel/inception_client.py --server=35.196.81.176:9000 --image=./public/' + fullPath, { encoding: 'utf8' });
+            var str = execSync('python ./MLmodel/inception_client.py --server=35.237.189.77:9000 --image=./public/' + fullPath, { encoding: 'utf8' });
             var cls = str.match(/Predicted Class: (.*)\nPredicted Score/)[1]
             var score = str.match(/Predicted Score: (.*)/)[1];
             global.cls = cls;
