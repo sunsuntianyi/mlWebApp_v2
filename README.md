@@ -1,6 +1,6 @@
 # mlWebApp_v2 (Dec_17_2018)
 
-## Demo: http://34.73.137.243:3000 (server is up and running)
+## Demo: http://34.73.137.243:3000 (server closed)
 
 This is the implementation of the deep convolutional neural network model, Inception.
 Tech involved: GCP, Kubernetes, Docker(Compose), TensorFlow(Serving), Node.js, MongoDB, Python, JavaScript, HTML, CSS, Jade(pug).
